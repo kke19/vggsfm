@@ -12,7 +12,7 @@ conda deactivate
 export ENV_NAME=vggsfm
 export PYTHON_VERSION=3.10
 export PYTORCH_VERSION=2.1.0
-export CUDA_VERSION=12.1
+export CUDA_VERSION=11.8
 
 # Create a new conda environment and activate it
 conda create -n $ENV_NAME python=$PYTHON_VERSION
